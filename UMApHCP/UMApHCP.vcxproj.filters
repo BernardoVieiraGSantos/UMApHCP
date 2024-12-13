@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UMApHCP.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="exact-method.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="shared.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\gurobi1200\win64\lib\gurobi_c++md2017.lib" />
+    <Library Include="..\..\..\..\..\..\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\lib\x64_windows_msvc14\stat_mda\cplex2211.lib" />
+    <Library Include="..\..\..\..\..\..\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\lib\x64_windows_msvc14\stat_mda\ilocplex.lib" />
+    <Library Include="..\..\..\..\..\..\gurobi1200\win64\lib\gurobi120.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exact-method.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="shared.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="instances\inst5.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+    <Text Include="instances\inst10.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+    <Text Include="instances\inst20.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+    <Text Include="instances\inst25.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+    <Text Include="instances\inst40.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+    <Text Include="instances\inst50.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+    <Text Include="instances\inst100.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+    <Text Include="instances\inst200.txt">
+      <Filter>Arquivos de Recurso</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
